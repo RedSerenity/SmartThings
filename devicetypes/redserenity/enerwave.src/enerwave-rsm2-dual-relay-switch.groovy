@@ -8,7 +8,7 @@
  */
 
 metadata {
-    definition(name: "RS Enerwave RSM2 Dual Relay Switch", namespace: "RedSerenityDev", author: "Red Serenity") {
+    definition(name: "RS Enerwave RSM2 Dual Relay Switch", namespace: "redserenity", author: "Red Serenity") {
         capability "Switch"
         capability "Polling"
         capability "Configuration"

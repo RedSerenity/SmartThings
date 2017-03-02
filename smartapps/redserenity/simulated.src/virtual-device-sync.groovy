@@ -17,13 +17,13 @@
  
 definition(
    name: "Virtual Device Sync",
-   namespace: "RedSerenityDev",
+   namespace: "redserenity",
    author: "Red Serenity",
    description: "Creates virtual devices and keeps them in sync with the selected physical device. Inteded to be used with devices with multiple relays, SmartLife RGBW, and Fibaro RGBW.",
    category: "Convenience",
-   iconUrl: "https://github.com/redserenitydev/SmartThings/raw/master/icons/virtual-device-sync.src/virtual-device-sync.png",
-   iconX2Url: "https://github.com/redserenitydev/SmartThings/raw/master/icons/virtual-device-sync.src/virtual-device-sync-2x.png",
-   iconX3Url: "https://github.com/redserenitydev/SmartThings/raw/master/icons/virtual-device-sync.src/virtual-device-sync-3x.png"
+   iconUrl: "https://github.com/redserenitydev/SmartThings/raw/master/icons/redserenity/virtual-device-sync.src/virtual-device-sync.png",
+   iconX2Url: "https://github.com/redserenitydev/SmartThings/raw/master/icons/redserenity/virtual-device-sync.src/virtual-device-sync-2x.png",
+   iconX3Url: "https://github.com/redserenitydev/SmartThings/raw/master/icons/redserenity/virtual-device-sync.src/virtual-device-sync-3x.png"
 )
 
 preferences {

@@ -15,7 +15,7 @@
 */
 definition(
     name: "Generic Video Camera Child",
-    namespace: "RedSerenityDev",
+    namespace: "redserenity",
     author: "Red Serenity",
     description: "Child Video Camera SmartApp",
     category: "Safety & Security",

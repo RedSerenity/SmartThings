@@ -14,7 +14,7 @@
  *
  */
 metadata {
-	definition (name: "RS Generic Video Camera", namespace: "RedSerenityDev", author: "Red Serenity") {
+	definition (name: "RS Generic Video Camera", namespace: "redserenity", author: "Red Serenity") {
 		capability "Configuration"
 		capability "Video Camera"
 		capability "Video Capture"

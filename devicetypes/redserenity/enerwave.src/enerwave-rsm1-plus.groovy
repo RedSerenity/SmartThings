@@ -4,7 +4,7 @@
  *
  */
 metadata {
-    definition(name: "RS Enerwave RSM1-Plus", namespace: "RedSerenityDev", author: "Red Serenity") {
+    definition(name: "RS Enerwave RSM1-Plus", namespace: "redserenity", author: "Red Serenity") {
         capability "Actuator"
         capability "Health Check"
         capability "Switch"
