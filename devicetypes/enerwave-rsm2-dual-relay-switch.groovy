@@ -4,6 +4,7 @@
  *  
  *	Device Type supports all the feautres of the Enerwave RSM2 device including both switches, 
  *	and the AllOn/AllOff functionality. 
+ *      https://github.com/erocm123/SmartThingsPublic/blob/master/devicetypes/erocm123/enerwave-rsm2-dual-relay-switch.src/enerwave-rsm2-dual-relay-switch.groovy
  */
  
 metadata {
