@@ -15,7 +15,7 @@
 */
 definition(
     name: "Generic Video Camera Connect",
-    namespace: "redserenity",
+    namespace: "redserenitydev",
     author: "Red Serenity",
     description: "This smartapp installs the Generic Video Camera Connect App so you can add multiple child video cameras",
     category: "Safety & Security",
