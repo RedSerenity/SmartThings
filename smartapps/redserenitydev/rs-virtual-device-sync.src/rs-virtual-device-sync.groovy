@@ -16,7 +16,7 @@
  */
  
 definition(
-   name: "Virtual Device Sync",
+   name: "RS Virtual Device Sync",
    namespace: "redserenitydev",
    author: "Red Serenity",
    description: "Creates virtual devices and keeps them in sync with the selected physical device. Inteded to be used with devices with multiple relays, SmartLife RGBW, and Fibaro RGBW.",

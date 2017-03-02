@@ -14,7 +14,7 @@
 *
 */
 definition(
-    name: "Generic Video Camera Child",
+    name: "RS Generic Video Camera Child",
     namespace: "redserenitydev",
     author: "Red Serenity",
     description: "Child Video Camera SmartApp",
