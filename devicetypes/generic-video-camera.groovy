@@ -14,7 +14,7 @@
  *
  */
 metadata {
-	definition (name: "Generic Video Camera", namespace: "RedSerenityDev", author: "Red Serenity") {
+	definition (name: "RS Generic Video Camera", namespace: "RedSerenityDev", author: "Red Serenity") {
 		capability "Configuration"
 		capability "Video Camera"
 		capability "Video Capture"
@@ -35,7 +35,7 @@ metadata {
 				attributeState("on", label: "Active", icon: "st.camera.dlink-indoor", action: "switch.off", backgroundColor: "#79b821", defaultState: true)
 				attributeState("off", label: "Inactive", icon: "st.camera.dlink-indoor", action: "switch.on", backgroundColor: "#ffffff")
 				attributeState("restarting", label: "Connecting", icon: "st.camera.dlink-indoor", backgroundColor: "#53a7c0")
-				attributeState("unavailable", label: "Unavailable", icon: "st.camera.dlink-indoor", action: "refresh.refresh", backgroundColor: "#F22000")
+				attributeState("unavailable", label: "Unavailable", icon: "st.camera.dlink-inddoor", action: "refresh.refresh", backgroundColor: "#F22000")
 			}
 
 			tileAttribute("device.errorMessage", key: "CAMERA_ERROR_MESSAGE") {

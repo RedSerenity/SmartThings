@@ -13,7 +13,7 @@
  */
 metadata {
 	
-    definition (name: "Simulated Energy Switch", namespace: "RedSerenityDev", author: "Red Serenity") {
+    definition (name: "RS Simulated Energy Switch", namespace: "RedSerenityDev", author: "Red Serenity") {
 		capability "Switch"
         capability "Relay Switch"
         capability "Energy Meter"
