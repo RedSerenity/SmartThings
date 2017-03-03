@@ -117,11 +117,11 @@ def createVirtualDevice() {
              }
              def switchType = ""
              if (virtualSwitchType != null && virtualSwitchType == "Switch"){
-                switchType = "Simulated Switch"
+                switchType = "RS Simulated Switch"
              } else if (virtualSwitchType != null && virtualSwitchType == "Energy Switch") {
-                switchType = "Simulated Energy Switch"
+                switchType = "RS Simulated Energy Switch"
              } else {
-                switchType = "Simulated Dimmer"
+                switchType = "RS Simulated Dimmer"
              }
              def child = addChildDevice("erocm123", switchType, getDeviceID(i), null, [name: getDeviceID(i), label: switchName, completedSetup: true])
           }   
